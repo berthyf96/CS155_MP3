@@ -35,6 +35,7 @@ def mask():
 
 def text_to_wordcloud(text, max_words=50, title='', show=True):
     plt.close('all')
+    #print(text)
 
     # Generate a wordcloud image.
     wordcloud = WordCloud(random_state=0,
